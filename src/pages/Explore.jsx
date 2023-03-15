@@ -31,7 +31,6 @@ function Explore() {
           </Link>
         </div>
       </main>
-      <h1>Explore</h1>
     </div>
   );
 }
