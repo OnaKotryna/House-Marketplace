@@ -104,7 +104,6 @@ function CreateListing() {
     } else {
       geolocation.lat = latitude;
       geolocation.lng = longitude;
-      location = address;
     }
 
     // store images
@@ -157,7 +156,7 @@ function CreateListing() {
       geolocation,
       timestamp: serverTimestamp(),
     };
-
+    formDataCopy.location = address;
     delete formDataCopy.images;
     delete formDataCopy.address;
     location && (formDataCopy.location = location);
