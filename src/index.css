@@ -75,14 +75,14 @@ button {
 .removeIcon {
   cursor: pointer;
   position: absolute;
-  top: -3%;
+  /* top: -3%; */
   right: -2%;
 }
 
 .editIcon {
   cursor: pointer;
   position: absolute;
-  top: -3.4%;
+  /* top: -3.4%; */
   right: 20px;
 }
 
@@ -826,4 +826,12 @@ button {
 }
 .swiper-wrapper {
   height: 17rem !important;
+}
+
+ul.listingsList {
+  padding-left: 0;
+}
+.actionIcon {
+  width: 20px !important;
+  height: 20px !important;
 }
